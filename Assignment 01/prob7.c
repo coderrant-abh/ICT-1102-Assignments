@@ -11,7 +11,7 @@ int main(void)
     kilometer = centimeter / 100000;
 
     printf("\nLength in meter = %.3f m\n", meter);
-    printf("Length in kilometer = %.4f km\n\n", kilometer);
+    printf("Length in kilometer = %.3f km\n\n", kilometer);
 
     return 0;
 }
