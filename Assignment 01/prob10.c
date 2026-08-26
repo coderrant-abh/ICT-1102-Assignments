@@ -7,15 +7,18 @@ int main(void)
     printf("\nEnter total number of days: ");
     scanf("%d", &totalDays);
 
+    int z = totalDays;
+
     years = totalDays / 365;
     totalDays = totalDays % 365;
 
     weeks = totalDays / 7;
     days = totalDays % 7;
 
-    printf("\nYears = %d\n", years);
-    printf("Weeks = %d\n", weeks);
-    printf("Days = %d\n\n", days);
+    printf("\n(%d Days) is equivalent to -\n", z);
+    printf("    Years = %d\n", years);
+    printf("    Weeks = %d\n", weeks);
+    printf("    Days  = %d\n\n", days);
 
     return 0;
 }
