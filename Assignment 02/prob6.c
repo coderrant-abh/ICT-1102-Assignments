@@ -4,7 +4,7 @@ int main(void)
 {
     int n, i, sum = 0;
 
-    printf("\nEnter the number: ");
+    printf("\nEnter the number  : ");
     scanf("%d", &n);
     
     i = 0;
@@ -13,7 +13,7 @@ int main(void)
         i++;
     }
 
-    printf("Summation: %d\n\n", sum);
+    printf("Summation (1 to %d): %d\n\n", n, sum);
 
     return 0;
 }
