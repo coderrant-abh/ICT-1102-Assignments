@@ -2,14 +2,19 @@
 
 int main(void)
 {
-    int n, i;
+    int n, digit, reverse = 0;
 
-    printf("Enter a number: ");
+    printf("\nEnter a number: ");
     scanf("%d", &n);
 
-    for (i=n; i>=0; i--) {
-        printf("%d\n", i);
+    while (n != 0)
+    {
+        digit = n % 10;
+        reverse = reverse * 10 + digit;
+        n = n / 10;
     }
+
+    printf("\nReverse print of the number: %d\n\n", reverse);
 
     return 0;
 }
