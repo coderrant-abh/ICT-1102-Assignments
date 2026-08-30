@@ -1,18 +1,19 @@
 #include <stdio.h>
 
-int main() {
-    int n, sum = 0, digit;
+int main(void)
+{
+    int n, digit, sum = 0;
 
-    printf("Enter a number: ");
+    printf("\nEnter a number: ");
     scanf("%d", &n);
 
     while (n != 0) {
-        digit = n % 10;   // Get last digit
-        sum = sum + digit; // Add digit to sum
-        n = n / 10;       // Remove last digit
+        digit = n % 10;
+        sum = sum + digit;
+        n = n / 10;
     }
 
-    printf("Sum of digits = %d", sum);
+    printf("\nSum of the digits = %d\n\n", sum);
 
     return 0;
 }
