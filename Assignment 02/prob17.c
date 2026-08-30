@@ -1,12 +1,13 @@
 #include <stdio.h>
 
-int main() {
-    int n, original, reverse = 0, digit;
+int main(void)
+{
+    int n, temp, digit, reverse = 0;
 
-    printf("Enter a number: ");
+    printf("\nEnter a number: ");
     scanf("%d", &n);
 
-    original = n;
+    temp = n;
 
     while (n != 0) {
         digit = n % 10;
@@ -14,10 +15,10 @@ int main() {
         n = n / 10;
     }
 
-    if (original == reverse) {
-        printf("%d is a palindrome number.", original);
+    if (temp == reverse) {
+        printf("\n%d is a palindrome number.\n\n", temp);
     } else {
-        printf("%d is not a palindrome number.", original);
+        printf("\n%d is not a palindrome number.\n\n", temp);
     }
 
     return 0;
