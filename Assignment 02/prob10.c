@@ -1,4 +1,4 @@
-// Write a C program to count number of digits in a number
+// Write a C program to count the number of digits in a number
 
 #include <stdio.h>
 
