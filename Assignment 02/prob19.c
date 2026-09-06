@@ -1,3 +1,5 @@
+// Write a C program to enter a number and print it in words
+
 #include <stdio.h>
 
 int main(void)
@@ -9,14 +11,14 @@ int main(void)
 
     printf("\n");
 
-    // if (n == 0) {
-    //     printf("Zero");
-    // }
+    if (n == 0) {
+        printf("Zero");
+    }
 
-    // if (n < 0) {
-    //     printf("Minus ");
-    //     n = -n;
-    // }
+    if (n < 0) {
+        printf("Minus ");
+        n = -n;
+    }
 
     /*********************************************************************
     *   Reverse the number; because when we using (n % 10); We get the
