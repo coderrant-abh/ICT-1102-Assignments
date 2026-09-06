@@ -1,4 +1,4 @@
-// Write a C program to enter a number and print its in reverse order
+// Write a C program to enter a number and print it in reverse order
 
 #include <stdio.h>
 
