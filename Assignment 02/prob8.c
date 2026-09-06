@@ -1,4 +1,4 @@
-// Write a C program to find sum of all odd numbers between 1 to n
+// Write a C program to find sum of all the odd numbers between 1 to n
 
 #include <stdio.h>
 
