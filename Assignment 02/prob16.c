@@ -1,3 +1,5 @@
+// Write a C program to enter a number and print its reverse
+
 #include <stdio.h>
 
 int main(void)
@@ -7,8 +9,7 @@ int main(void)
     printf("\nEnter a number: ");
     scanf("%d", &n);
 
-    while (n != 0)
-    {
+    while (n != 0) {
         digit = n % 10;
         reverse = reverse * 10 + digit;
         n = n / 10;
