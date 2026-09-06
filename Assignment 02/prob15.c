@@ -1,4 +1,4 @@
-// Write a C program to calculate product of digits of a number
+// Write a C program to calculate the product of digits of a number
 
 #include <stdio.h>
 
