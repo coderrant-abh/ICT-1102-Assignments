@@ -1,3 +1,5 @@
+// Write a C program to find all the factors of a number
+
 #include <stdio.h>
 
 int main(void)
