@@ -1,4 +1,4 @@
-// Write a C program to find sum of all natural numbers between 1 to n
+// Write a C program to find sum of all the natural numbers between 1 to n
 
 #include <stdio.h>
 
