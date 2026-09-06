@@ -1,4 +1,4 @@
-// Write a C program to calculate sum of digits of a number
+// Write a C program to calculate the sum of digits of a number
 
 #include <stdio.h>
 
