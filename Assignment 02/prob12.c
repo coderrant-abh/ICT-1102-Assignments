@@ -1,4 +1,4 @@
-// Write a C program to find sum of first and last digit of a number
+// Write a C program to find sum of the first and last digit of a number
 
 #include <stdio.h>
 
