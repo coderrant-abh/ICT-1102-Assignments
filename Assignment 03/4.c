@@ -6,6 +6,7 @@ int isEven(int n);
 int main(void)
 {
     int num;
+    
     printf("Enter a number: ");
     scanf("%d", &num);
 
