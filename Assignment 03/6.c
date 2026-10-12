@@ -18,6 +18,17 @@ int main(void)
     return 0;
 }
 
+void printPrimes(int start, int end)
+{
+    for (int i = start; i <= end; i++) {
+        if (isPrime(i)) {
+            printf("%d ", i);
+        }
+    }
+    
+    printf("\n\n");
+}
+
 int isPrime(int n)
 {
     if (n <= 1)
@@ -29,15 +40,4 @@ int isPrime(int n)
     }
     
     return 1;
-}
-
-void printPrimes(int start, int end)
-{
-    for (int i = start; i <= end; i++) {
-        if (isPrime(i)) {
-            printf("%d ", i);
-        }
-    }
-    
-    printf("\n");
 }
