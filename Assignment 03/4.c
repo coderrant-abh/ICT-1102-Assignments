@@ -19,8 +19,8 @@ int main(void)
     return 0;
 }
 
-int isEven(int n)
-{
+int isEven(int n) {
+    
     if (n % 2 == 0)
         return 1;
         
