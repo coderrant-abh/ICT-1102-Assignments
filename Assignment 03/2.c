@@ -21,17 +21,14 @@ int main(void)
     return 0;
 }
 
-float diameter(float r)
-{
+float diameter(float r) {
     return 2 * r;
 }
 
-float circumference(float r)
-{
+float circumference(float r) {
     return 2 * PI_VALUE * r;
 }
 
-float area(float r)
-{
+float area(float r) {
     return PI_VALUE * r * r;
 }
