@@ -1,5 +1,4 @@
 //  Write a C program to find reverse of any number using recursion.
-
 #include <stdio.h>
 
 int reverse(int n, int rev);
@@ -17,6 +16,7 @@ int main(void)
 
 int reverse(int n, int rev)
 {
+    
     if (n == 0) {
         return rev;
     }
