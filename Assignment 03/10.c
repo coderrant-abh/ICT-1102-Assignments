@@ -1,5 +1,4 @@
 // Write a C program to find power of any number using recursion.
-
 #include <stdio.h>
 
 long long power(int base, int exp);
@@ -13,7 +12,7 @@ int main(void)
     printf("Enter exponent: ");
     scanf("%d", &exp);
     
-    printf("\n%d ^ %d = %lld\n", base, exp, power(base, exp));
+    printf("\n%d ^ %d = %lld\n\n", base, exp, power(base, exp));
     
     return 0;
 }
