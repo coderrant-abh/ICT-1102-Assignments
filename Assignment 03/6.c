@@ -1,5 +1,4 @@
 // Write a C program to find all prime numbers between given interval using functions.
-
 #include <stdio.h>
 
 int isPrime(int n);
@@ -9,7 +8,7 @@ int main(void)
 {
     int start, end;
     
-    printf("Enter the intervals (start & end): ");
+    printf("Enter the intervals (Start, then End): ");
     scanf("%d %d", &start, &end);
     
     printf("\nPrime numbers between %d and %d are:\n", start, end);
