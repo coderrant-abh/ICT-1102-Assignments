@@ -1,0 +1,11 @@
+# Ignore standard compiled extensions
+*.out
+*.exe
+*.o
+*.a
+*.so
+*a.out
+
+# Wildcard rule: ignore all files without extensions in assignment subfolders
+Assignment*/*
+!Assignment*/*.*
