@@ -1,5 +1,4 @@
 // Write a C program to find maximum and minimum between two numbers using functions.
-
 #include <stdio.h>
 
 int max(int a, int b);
@@ -16,16 +15,16 @@ int main(void)
     return 0;
 }
 
-int max(int a, int b)
-{
+int max(int a, int b) {
+    
     if (a > b)
         return a;
 
     return b;
 }
 
-int min(int a, int b)
-{
+int min(int a, int b) {
+    
     if (a < b)
         return a;
     
