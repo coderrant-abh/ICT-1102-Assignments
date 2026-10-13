@@ -1,7 +1,6 @@
 // Write a C program to find diameter, circumference and area of circle using functions.
-
 #include <stdio.h>
-#define PI_VALUE 3.14159265359f
+#define PI_VALUE 3.14159265358979323846f
 
 float diameter(float);
 float circumference(float);
