@@ -2,41 +2,39 @@
 #include <stdio.h>
 
 int isPrime(int n);
-void printPrimes(int start, int end);
 
 int main(void)
 {
-    int start, end;
+    int start, end, i;
     
-    printf("Enter the intervals (Start, then End): ");
+    printf("\nEnter the intervals (Start, then End): ");
     scanf("%d %d", &start, &end);
     
     printf("\nPrime numbers between %d and %d are:\n", start, end);
-    printPrimes(start, end);
     
-    return 0;
-}
-
-void printPrimes(int start, int end)
-{
-    for (int i = start; i <= end; i++) {
+    for (i = start; i <= end; i++) {
         if (isPrime(i)) {
             printf("%d ", i);
         }
     }
     
     printf("\n\n");
+    
+    return 0;
 }
 
-int isPrime(int n)
-{
-    if (n <= 1)
+int isPrime(int n) {
+    
+    int i;
+
+    if (n < 2)
         return 0;
-    
-    for (int i = 2; i <= n/2; i++) {
-        if (n % i == 0)
+
+    for (i = 2; i * i <= n; i++) {
+        if (n % i == 0) {
             return 0;
+        }
     }
-    
+
     return 1;
 }
