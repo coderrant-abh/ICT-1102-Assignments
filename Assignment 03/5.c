@@ -1,6 +1,5 @@
 /* Write a C program to check whether a number is prime,
       Armstrong or perfect number using functions.  */
-
 #include <stdio.h>
 
 int isPrime(int n);
@@ -34,7 +33,7 @@ int main(void)
 // returns 1 if prime, otherwise 0
 int isPrime(int n) {
     int i;
-    if (n <= 1)
+    if (n < 2)
         return 0;
     
     for (i = 2; i <= n/2; i++) {
