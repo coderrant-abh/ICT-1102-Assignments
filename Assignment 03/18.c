@@ -6,7 +6,7 @@ long long fact(int n);
 int main(void)
 {
     int num;
-    printf("Enter a number: ");
+    printf("\nEnter a number: ");
     scanf("%d", &num);
     
     printf("\nFactorial of %d = %lld\n\n", num, fact(num));
@@ -14,8 +14,7 @@ int main(void)
     return 0;
 }
 
-long long fact(int n)
-{
+long long fact(int n) {
     
     if (n == 0 || n == 1) {
         return 1;
