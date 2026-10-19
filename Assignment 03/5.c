@@ -92,4 +92,9 @@ int isPerfect(int n) {
         return 1;
     else
         return 0;
+
+    /************************************************************
+    *  Here we can also just use 'return sum == n;' instead of
+    *            this every last if-else condition
+    *************************************************************/
 }
