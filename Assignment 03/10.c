@@ -17,8 +17,8 @@ int main(void)
     return 0;
 }
 
-long long power(int base, int exp)
-{
+long long power(int base, int exp) {
+    
     if (exp == 0) {
         return 1;
     }
