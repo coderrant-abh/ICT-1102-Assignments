@@ -18,8 +18,8 @@ int main(void)
     return 0;
 }
 
-void printNum(int i, int n)
-{
+void printNum(int i, int n) {
+    
     if (i > n) {
         return;
     }
