@@ -7,7 +7,7 @@ int main(void)
 {
     int n;
     
-    printf("Enter n: ");
+    printf("\nEnter n: ");
     scanf("%d", &n);
     
     printf("\nSum of natural numbers (1 to %d) = %d\n\n", n, sum(n));
@@ -15,8 +15,8 @@ int main(void)
     return 0;
 }
 
-int sum(int n)
-{
+int sum(int n) {
+    
     if (n == 0) {
         return 0;
     }
