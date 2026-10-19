@@ -6,15 +6,17 @@ int gcd(int x, int y);
 int main(void)
 {
     int a, b;
-    printf("Enter two numbers: ");
+    printf("\nEnter two numbers: ");
     scanf("%d %d", &a, &b);
 
-    printf("GCD of %d and %d = %d\n", a, b, gcd(a, b));
+    printf("\nGCD of %d and %d = %d\n\n", a, b, gcd(a, b));
     return 0;
 }
 
 int gcd(int x, int y) {
+    
     if (y == 0)
         return x;
+    
     return gcd(y, x % y);
 }
